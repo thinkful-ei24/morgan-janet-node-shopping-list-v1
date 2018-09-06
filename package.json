@@ -1,10 +1,10 @@
 {
-  "name": "node-shopping-list-v1",
+  "name": "my-hyperdev-app",
   "version": "0.0.1",
-  "description": "Shopping list app to demo 'the modern classic'",
+  "description": "What am I about?",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -12,9 +12,12 @@
     "morgan": "^1.7.0",
     "uuid": "^2.0.3"
   },
+  "engines": {
+    "node": "4.4.3"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thinkful-Ed/node-shopping-list-v5"
+    "url": "https://hyperdev.com/#!/project/welcome-project"
   },
   "keywords": [
     "node",
